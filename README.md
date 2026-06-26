@@ -37,5 +37,5 @@ All unique permutations will be saved to `password.txt`.
 |7|15,656|
 |8|140,913|
 
-> ⚠ Large inputs (9+) will generate very large wordlists and may take a long time.
+> ⚠ Large inputs (9+) will generate very large wordlists and may take a long time and can seriously overload your computer.
 
