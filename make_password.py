@@ -20,7 +20,7 @@ def get_characters() -> list[str]:
             print("You must enter at least 1 character!")
         else:
             if len(raw) >= 9:
-                print(f"⚠  WARNING: {len(raw)} characters will generate a very large list, this may take a long time!")
+                print(f"⚠  WARNING: {len(raw)} characters will generate a very large list, this may take a long time and can seriously overload your computer.")
                 confirm = input("Do you want to continue? (y/n): ").strip().lower()
                 if confirm != "y":
                     continue
